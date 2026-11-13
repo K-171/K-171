@@ -24,7 +24,7 @@ flowchart LR
     D --> E["Grafana<br/>status map · OEE per shift"]
 ```
 
-| | |
+| Point | Result |
 |---|---|
 | **Latency** | 7.08 s worst case, against a 10 s requirement across the fleet |
 | **Validation** | Node tested on a real welder; fleet reproduced with a 122-machine simulator and 18 unit tests |
@@ -68,7 +68,7 @@ Tools I built to solve a concrete problem on site. Web development is not my fie
 
 ## Toolbox
 
-| | |
+| Area | Tools |
 |---|---|
 | **Automation & supervision** | TIA Portal V16 (S7-1200, SCL, Ladder), PLCSIM, WinCC Advanced, Schneider TSX (PL7 Pro), hierarchical Grafcet |
 | **Industrial networks & IIoT** | OPC UA, Modbus RTU/TCP, MQTT, PROFINET, PROFIBUS DP, AS-i, Node-RED, KEPServerEX |
